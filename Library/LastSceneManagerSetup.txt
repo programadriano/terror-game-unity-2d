@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/primeira.unity
+- path: Assets/bkp.unity
   isLoaded: 1
   isActive: 1
