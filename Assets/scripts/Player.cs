@@ -33,8 +33,7 @@ public class Player : MonoBehaviour
         animator.SetFloat("movimento", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
 
         verificaChao = Physics2D.Linecast(transform.position, chaoVerificador.position, 1 << LayerMask.NameToLayer("Chao"));
-
-
+        animator.SetBool("chao", verificaChao);
 
 
         if (Input.GetAxisRaw("Horizontal") > 0)
@@ -48,9 +47,8 @@ public class Player : MonoBehaviour
             transform.Translate(Vector2.right * velocidade * Time.deltaTime);
             transform.eulerAngles = new Vector2(0, 180);
         }
-
-        estaNoChao = Physics2D.Linecast(transform.position, chaoVerificador.position, 1 << LayerMask.NameToLayer("Piso"));
-        animator.SetBool("chao", estaNoChao);
+        
+      
 
         if (Input.GetButtonDown("Jump") && verificaChao)
         {
