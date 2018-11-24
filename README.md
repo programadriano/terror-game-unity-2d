@@ -8,6 +8,6 @@ Caso tenha interesse em saber os passos para montar esse projeto, segue link de 
 
 [Unity: criando o seu primeiro game 2D](https://imasters.com.br/back-end/unity-criando-o-seu-primeiro-game-2d)
 
-[introdução a programação orientada a objetos](https://imasters.com.br/desenvolvimento/unity-introducao-programacao-orientada-objetos-poo-com-c)
+[introdução a programação orientada a objetos com Unity](https://imasters.com.br/desenvolvimento/unity-introducao-programacao-orientada-objetos-poo-com-c)
 
 [Unity: Animator](https://imasters.com.br/back-end/unity-animator)
